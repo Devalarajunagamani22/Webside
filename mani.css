@@ -1,0 +1,32 @@
+.card-block{
+  list-style-type:none;
+  position:relative;
+  margin-left: 250px;
+  padding-top:300px;
+  max-width:340px;
+  height:420px;
+  padding:30px 30px 30px 30px;
+}
+li{
+  min-height:400px;
+  width:320px;
+  background:pink;
+  position:absolute;
+  text-align:center;
+  box-shadow:0 0 3px 3px rgba(200,200,200,1);
+  left:100px;
+  transition:all cubic-bezier(.25,.64,.09,.97) 0.5s;
+  top:0;
+}
+.drop{
+/*   transform:scale(2)!important;
+  opacity:0; */
+  left:100% !important;
+  opacity:0;
+  transform:rotate(35deg)!important;
+}
+h1{
+  color:#fff;
+  text-shadow:1px 1px 0px #333,2px 2px #333,3px 3px 0px #333;
+  min-height:150px
+}
